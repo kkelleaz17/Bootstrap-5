@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-size: 15px
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: 25px
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.navblock{
+    height: 80px;
+    width: calc(100%);
+    padding-inline: 50px;
+    background-color: rgb(237, 239, 230);
+    padding-block: 25px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.items{
+  width: auto;
+}
+.nav-item a,.nav-item,.header{
+  position: sticky;
+}
+
+
+.cards{
+    width: 320px;
+}
+.Block-holder{
+    padding: 15px;
+    padding-top:95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap:0px
+}
+
+.item{
+  height: 600px;
+  width: 100%;
+}
+
+
+.container{
+  height: 600px;
+  width: 100%;
+}
+
+
+.item-img-class{
+  height: 500px;
+  width: 350px;
+}
+
+
+
+
+
+
+
+.shopping-cart{
+    position: absolute;
+    right: 0px;
+    font-size: 50px;
+}
+
+.cart{
+    font-size: 40px;
+    position: relative;
+}
+.cart::after { 
+    content: "5";
+    border-radius: 30px;
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 82, 82);
+    color: black;
+  }
+  .header{
+    font-size: 30px;
+  }
+
+
+  main{
+    width: 100%;
+  }
+  .About-me{
+    height: auto;
+    width: 100%;
+    background-color: rgb(233, 230, 228);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 50px;
+  }
+  .imgclass{
+    height: 250px;
+  }
+
+
+
+  .Product{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+   flex-direction: row;
+   flex-wrap: wrap;
+  }
+  #Product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(228, 222, 218);
+  }
+  .Product div{
+    position: relative;
+  }
+
+  .imgproduct{
+    height: 245px;
+  }
+
+.Information{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: rgb(245, 239, 239);
+}
+.accordion-header button{
+  font-size: 25px;
+}
+.accordion{
+  width: 500px;
+}
+
+.InformationArea{
+  height: 265px;
+  width: 500px;
+  background-color: rgb(211, 208, 208);
+  gap:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-block: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav{
+    display:none
+  }
+}
