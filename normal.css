@@ -167,7 +167,6 @@ h1,h2,h3,h4,h5,h6{
   text-align: center;
 }
 footer{
-  height: 300px;
   width: 100%;
   background-color: rgb(232, 232, 232);
   display: flex;
@@ -176,12 +175,7 @@ footer{
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  padding-block: 50px;
-}
-
-
-@media only screen and (max-width: 600px) {
-  .navbar-nav{
-    display:none
-  }
+  padding-block: 10px;
+  position: sticky;
+  bottom: 0px;
 }
